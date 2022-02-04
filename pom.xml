@@ -36,6 +36,7 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
+                            <failOnMissingWebXml>false</failOnMissingWebXml>
                             <webxml>web\WEB-INF\web.xml</webxml>
                             <warname>jb-hello-world-maven</warname>
                             <transformers>
