@@ -36,7 +36,8 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
-                            <webXml>web\WEB-INF\web.xml</webXml>   
+                            <webXml>web\WEB-INF\web.xml</webXml>
+                            <warname>jb-hello-world-maven-0.1.0</warname>
                             <transformers>
                                 <transformer
                                     implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
